@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping SYSTEM
+        "classpath://org/hibernate/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.github.alexv2018.model.BitOperations" table="BITOPERATIONS">
+        <id name="ID" type="int">
+            <column name="ID"/>
+            <generator class="increment"/>
+        </id>
+        <property name="var1" type="int">
+            <column name="VAR1"/>
+        </property>
+        <property name="var2" type="int">
+            <column name="VAR2"/>
+        </property>
+    </class>
+</hibernate-mapping>
